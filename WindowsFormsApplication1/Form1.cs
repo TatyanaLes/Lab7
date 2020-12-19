@@ -141,5 +141,10 @@ namespace WindowsFormsApplication1
                 winExcel.Quit();
             }
         }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

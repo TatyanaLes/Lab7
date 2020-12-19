@@ -39,6 +39,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -143,9 +144,20 @@
             this.label13.TabIndex = 10;
             this.label13.Text = "↓Нажми, чтобы вставить скопированную картинку";
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(278, 244);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(41, 13);
+            this.label14.TabIndex = 11;
+            this.label14.Text = "label14";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(409, 343);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button2);
@@ -184,6 +196,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
     }
 }
 
